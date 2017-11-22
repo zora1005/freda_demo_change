@@ -1,0 +1,1071 @@
+<changelog xmlns="http://www.codesynthesis.com/xmlns/odb/changelog" database="sqlite" version="1">
+  <changeset version="6">
+    <alter-table name="Person">
+      <add-column name="glipContact" type="INTEGER" null="true"/>
+      <add-column name="matchedContact" type="INTEGER" null="true"/>
+      <add-foreign-key name="glipContact_fk" deferrable="DEFERRED">
+        <column name="glipContact"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </add-foreign-key>
+      <add-foreign-key name="matchedContact_fk" deferrable="DEFERRED">
+        <column name="matchedContact"/>
+        <references table="Contact">
+          <column name="id"/>
+        </references>
+      </add-foreign-key>
+    </alter-table>
+    <alter-table name="Group">
+      <add-column name="isInvitedByMe" type="INTEGER" null="false" default="0"/>
+    </alter-table>
+    <alter-table name="RcMessageRecord">
+      <add-column name="subject" type="TEXT" null="false"/>
+      <add-column name="formattedSubject" type="TEXT" null="false"/>
+    </alter-table>
+    <add-table name="RcSMS" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="record" type="INTEGER" null="true"/>
+      <column name="errorCode" type="TEXT" null="false"/>
+      <column name="errorMessage" type="TEXT" null="false"/>
+      <column name="parameterName" type="TEXT" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="record_fk" deferrable="DEFERRED">
+        <column name="record"/>
+        <references table="RcMessageRecord">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </add-table>
+  </changeset>
+
+  <changeset version="5">
+    <alter-table name="Group">
+      <add-column name="permissionJson" type="TEXT" null="true"/>
+    </alter-table>
+  </changeset>
+
+  <changeset version="4">
+    <alter-table name="Person">
+      <add-column name="isFirstPerson" type="INTEGER" null="false" default="0"/>
+      <add-column name="inviteId" type="INTEGER" null="false" default="0"/>
+    </alter-table>
+  </changeset>
+
+  <changeset version="3">
+    <alter-table name="Group">
+      <add-column name="isCompanyTeam" type="INTEGER" null="false" default="0"/>
+    </alter-table>
+  </changeset>
+
+  <changeset version="2">
+    <alter-table name="Group">
+      <add-column name="isArchived" type="INTEGER" null="false" default="0"/>
+    </alter-table>
+  </changeset>
+
+  <model version="1">
+    <table name="PhoneNumber" kind="object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="contactId" type="INTEGER" null="false"/>
+      <column name="data" type="TEXT" null="false"/>
+      <column name="type" type="TEXT" null="false"/>
+      <primary-key auto="true">
+        <column name="id"/>
+      </primary-key>
+      <index name="PhoneNumber_contactId_index">
+        <column name="contactId"/>
+      </index>
+    </table>
+    <table name="EmailAddress" kind="object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="contactId" type="INTEGER" null="false"/>
+      <column name="data" type="TEXT" null="false"/>
+      <column name="type" type="TEXT" null="false"/>
+      <primary-key auto="true">
+        <column name="id"/>
+      </primary-key>
+      <index name="EmailAddress_contactId_index">
+        <column name="contactId"/>
+      </index>
+    </table>
+    <table name="Contact" kind="polymorphic root object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="typeid" type="TEXT" null="false"/>
+      <column name="rawId" type="TEXT" null="false"/>
+      <column name="displayName" type="TEXT" null="false"/>
+      <column name="firstName" type="TEXT" null="false"/>
+      <column name="middleName" type="TEXT" null="false"/>
+      <column name="lastName" type="TEXT" null="false"/>
+      <column name="nickName" type="TEXT" null="false"/>
+      <column name="photoUri" type="TEXT" null="false"/>
+      <column name="company" type="TEXT" null="false"/>
+      <column name="jobTitle" type="TEXT" null="false"/>
+      <column name="type" type="INTEGER" null="false"/>
+      <column name="contactSimHash" type="INTEGER" null="false"/>
+      <column name="duplicated" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Contact_rawId_index">
+        <column name="rawId"/>
+      </index>
+      <index name="Contact_displayName_index">
+        <column name="displayName" options="ASC"/>
+      </index>
+    </table>
+    <table name="Person" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="isVisible" type="INTEGER" null="false"/>
+      <column name="rcExtension" type="TEXT" null="false"/>
+      <column name="deactivated" type="INTEGER" null="false"/>
+      <column name="company" type="INTEGER" null="true"/>
+      <column name="hasRegistered" type="INTEGER" null="false"/>
+      <column name="amazonSesSuppressed" type="TEXT" null="false"/>
+      <column name="externallyRegistered" type="TEXT" null="false"/>
+      <column name="isRemovedGuest" type="INTEGER" null="false"/>
+      <column name="amRemovedGuest" type="INTEGER" null="false"/>
+      <column name="isPseudoUser" type="INTEGER" null="false"/>
+      <column name="pseudoPhoneNumber" type="TEXT" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Contact">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="company_fk" deferrable="DEFERRED">
+        <column name="company"/>
+        <references table="Company">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Group" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="isFavorite" type="INTEGER" null="false"/>
+      <column name="groupType" type="INTEGER" null="false"/>
+      <column name="displayName" type="TEXT" null="false"/>
+      <column name="abbreviation" type="TEXT" null="false"/>
+      <column name="initialsAvatarName" type="TEXT" null="false"/>
+      <column name="isPublic" type="INTEGER" null="false"/>
+      <column name="deactivated" type="INTEGER" null="false"/>
+      <column name="mostRecentPostCreatedAt" type="INTEGER" null="false"/>
+      <column name="mostRecentPostId" type="INTEGER" null="false"/>
+      <column name="oldestPostId" type="INTEGER" null="false"/>
+      <column name="company" type="INTEGER" null="true"/>
+      <column name="localMostRecentPost" type="INTEGER" null="true"/>
+      <column name="localMostRecentPostCreatedAt" type="INTEGER" null="false"/>
+      <column name="individualGroupHeadshotUrl" type="TEXT" null="false"/>
+      <column name="creator" type="INTEGER" null="true"/>
+      <column name="individualGroupState" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="company_fk" deferrable="DEFERRED">
+        <column name="company"/>
+        <references table="Company">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="localMostRecentPost_fk" deferrable="DEFERRED">
+        <column name="localMostRecentPost"/>
+        <references table="Post">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="creator_fk" deferrable="DEFERRED">
+        <column name="creator"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Group_mostRecentPostCreatedAt_index">
+        <column name="mostRecentPostCreatedAt" options="DESC"/>
+      </index>
+    </table>
+    <table name="Group_members" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Group">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Group_members_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Group_members_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Group_guestUserCompanyIDs" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="false"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Group">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Group_guestUserCompanyIDs_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Group_guestUserCompanyIDs_index_i">
+        <column name="index"/>
+      </index>
+    </table>
+    <table name="Group_removedGuestUserId" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="false"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Group">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Group_removedGuestUserId_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Group_removedGuestUserId_index_i">
+        <column name="index"/>
+      </index>
+    </table>
+    <table name="Company" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="name" type="TEXT" null="false"/>
+      <column name="industry" type="TEXT" null="false"/>
+      <column name="allowOffDomainCoworkers" type="INTEGER" null="false"/>
+      <column name="rcBrand" type="TEXT" null="false"/>
+      <column name="rcAccountId" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Company_name_index">
+        <column name="name" options="ASC"/>
+      </index>
+    </table>
+    <table name="Company_domain" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="TEXT" null="false"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Company">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Company_domain_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Company_domain_index_i">
+        <column name="index"/>
+      </index>
+    </table>
+    <table name="Post" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="text" type="TEXT" null="false"/>
+      <column name="rawText" type="TEXT" null="false"/>
+      <column name="activity" type="TEXT" null="false"/>
+      <column name="icon" type="TEXT" null="false"/>
+      <column name="isDeactivated" type="INTEGER" null="false"/>
+      <column name="group" type="INTEGER" null="true"/>
+      <column name="parentItem" type="INTEGER" null="true"/>
+      <column name="activityType" type="INTEGER" null="false"/>
+      <column name="isDirty" type="INTEGER" null="false"/>
+      <column name="isCreatedByMyself" type="INTEGER" null="false"/>
+      <column name="creator" type="INTEGER" null="true"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="group_fk" deferrable="DEFERRED">
+        <column name="group"/>
+        <references table="Group">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="parentItem_fk" deferrable="DEFERRED">
+        <column name="parentItem"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="creator_fk" deferrable="DEFERRED">
+        <column name="creator"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Post_creationTime_index">
+        <column name="creationTime" options="DESC"/>
+      </index>
+    </table>
+    <table name="Post_likes" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Post">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Post_likes_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Post_likes_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Post_atMentionItems" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Post">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Post_atMentionItems_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Post_atMentionItems_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Post_attachedItems" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Post">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Post_attachedItems_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Post_attachedItems_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Post_atMentionPersons" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Post">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Post_atMentionPersons_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Post_atMentionPersons_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Post_atMentionGroups" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Post">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Post_atMentionGroups_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Post_atMentionGroups_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Group">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Item" kind="polymorphic root object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="typeid" type="TEXT" null="false"/>
+      <column name="itemType" type="INTEGER" null="false"/>
+      <column name="text" type="TEXT" null="false"/>
+      <column name="deactivated" type="INTEGER" null="false"/>
+      <column name="isCreatedByMyself" type="INTEGER" null="false"/>
+      <column name="creator" type="INTEGER" null="true"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="creator_fk" deferrable="DEFERRED">
+        <column name="creator"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Item_attachedToGroups" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Item_attachedToGroups_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Item_attachedToGroups_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Group">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Item_atmentionPostIds" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="false"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Item_atmentionPostIds_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Item_atmentionPostIds_index_i">
+        <column name="index"/>
+      </index>
+    </table>
+    <table name="CallerModel" kind="object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="phoneNumber" type="TEXT" null="false"/>
+      <column name="name" type="TEXT" null="false"/>
+      <column name="location" type="TEXT" null="false"/>
+      <column name="messageStatus" type="TEXT" null="false"/>
+      <column name="extensionNumber" type="TEXT" null="false"/>
+      <primary-key auto="true">
+        <column name="id"/>
+      </primary-key>
+    </table>
+    <table name="FileVersion" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="url" type="TEXT" null="false"/>
+      <column name="downloadUrl" type="TEXT" null="false"/>
+      <column name="thumbsUrl" type="TEXT" null="false"/>
+      <column name="localUrl" type="TEXT" null="false"/>
+      <column name="date" type="INTEGER" null="false"/>
+      <column name="size" type="INTEGER" null="false"/>
+      <column name="origWidth" type="INTEGER" null="false"/>
+      <column name="origHeight" type="INTEGER" null="false"/>
+      <column name="thumbWidth" type="INTEGER" null="false"/>
+      <column name="thumbHeight" type="INTEGER" null="false"/>
+      <column name="isCreatedByMyself" type="INTEGER" null="false"/>
+      <column name="creator" type="INTEGER" null="true"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="creator_fk" deferrable="DEFERRED">
+        <column name="creator"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="GroupState" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="readThrough" type="INTEGER" null="false"/>
+      <column name="unreadCount" type="INTEGER" null="false"/>
+      <column name="unreadMentionsCount" type="INTEGER" null="false"/>
+      <column name="markedAsUnread" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Conference" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="phoneNumber" type="TEXT" null="false"/>
+      <column name="hostCode" type="TEXT" null="false"/>
+      <column name="participantCode" type="TEXT" null="false"/>
+      <column name="tapToJoinUri" type="TEXT" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="ItemReminder" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="start" type="INTEGER" null="false"/>
+      <column name="end" type="INTEGER" null="false"/>
+      <column name="color" type="TEXT" null="false"/>
+      <column name="isAllDay" type="INTEGER" null="false"/>
+      <column name="firstSortingDate" type="INTEGER" null="false"/>
+      <column name="secondSortingDate" type="INTEGER" null="false"/>
+      <column name="repeateType" type="INTEGER" null="false"/>
+      <column name="repeatEndingOn" type="INTEGER" null="false"/>
+      <column name="repeatEndingAfter" type="TEXT" null="false"/>
+      <column name="repeatEnding" type="TEXT" null="false"/>
+      <column name="hasDueTime" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Event" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="description" type="TEXT" null="false"/>
+      <column name="location" type="TEXT" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="ItemReminder">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="File" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="name" type="TEXT" null="false"/>
+      <column name="fileType" type="TEXT" null="false"/>
+      <column name="deactivated" type="INTEGER" null="false"/>
+      <column name="source" type="TEXT" null="false"/>
+      <column name="downloadUrl" type="TEXT" null="false"/>
+      <column name="size" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="File_versions" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="File">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="File_versions_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="File_versions_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="FileVersion">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Integration" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="title" type="TEXT" null="false"/>
+      <column name="activity" type="TEXT" null="false"/>
+      <column name="body" type="TEXT" null="false"/>
+      <column name="integrationId" type="INTEGER" null="false"/>
+      <column name="integrationOwnerId" type="INTEGER" null="false"/>
+      <column name="integrationType" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Link" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="url" type="TEXT" null="false"/>
+      <column name="title" type="TEXT" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Meeting" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="meetingId" type="INTEGER" null="false"/>
+      <column name="status" type="TEXT" null="false"/>
+      <column name="joinUrl" type="TEXT" null="false"/>
+      <column name="startUrl" type="TEXT" null="false"/>
+      <column name="start" type="INTEGER" null="false"/>
+      <column name="end" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Page" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="bodyLength" type="INTEGER" null="false"/>
+      <column name="text" type="TEXT" null="false"/>
+      <column name="body" type="TEXT" null="false"/>
+      <column name="summary" type="TEXT" null="false"/>
+      <column name="date" type="INTEGER" null="false"/>
+      <column name="bodyFilePath" type="TEXT" null="false"/>
+      <column name="saveTimeStamp" type="INTEGER" null="false"/>
+      <column name="isDraft" type="INTEGER" null="false"/>
+      <column name="lockCreator" type="INTEGER" null="false"/>
+      <column name="lockCreateTime" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="RcRecording" kind="object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="url" type="TEXT" null="false"/>
+      <column name="type" type="TEXT" null="false"/>
+      <column name="contentUri" type="TEXT" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+    </table>
+    <table name="RcCallRecord" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="recordId" type="TEXT" null="false"/>
+      <column name="url" type="TEXT" null="false"/>
+      <column name="startTime" type="TEXT" null="false"/>
+      <column name="type" type="TEXT" null="false"/>
+      <column name="direction" type="TEXT" null="false"/>
+      <column name="action" type="TEXT" null="false"/>
+      <column name="result" type="TEXT" null="false"/>
+      <column name="sessionId" type="TEXT" null="false"/>
+      <column name="telephonyStatus" type="TEXT" null="false"/>
+      <column name="duration" type="INTEGER" null="false"/>
+      <column name="to" type="INTEGER" null="true"/>
+      <column name="from" type="INTEGER" null="true"/>
+      <column name="recording" type="INTEGER" null="true"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="to_fk" deferrable="DEFERRED">
+        <column name="to"/>
+        <references table="CallerModel">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="from_fk" deferrable="DEFERRED">
+        <column name="from"/>
+        <references table="CallerModel">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="recording_fk" deferrable="DEFERRED">
+        <column name="recording"/>
+        <references table="RcRecording">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="RcCall" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="zoomId" type="TEXT" null="false"/>
+      <column name="company" type="INTEGER" null="true"/>
+      <column name="record" type="INTEGER" null="true"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="company_fk" deferrable="DEFERRED">
+        <column name="company"/>
+        <references table="Company">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="record_fk" deferrable="DEFERRED">
+        <column name="record"/>
+        <references table="RcCallRecord">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="RcRecordAttachment" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="url" type="TEXT" null="false"/>
+      <column name="type" type="TEXT" null="false"/>
+      <column name="contentType" type="TEXT" null="false"/>
+      <column name="vmDuration" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="RcMessageRecord" kind="object">
+      <column name="version" type="INTEGER" null="false"/>
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="modificationTime" type="INTEGER" null="false"/>
+      <column name="creationTime" type="INTEGER" null="false"/>
+      <column name="jsonRepresentation" type="INTEGER" null="true"/>
+      <column name="url" type="TEXT" null="false"/>
+      <column name="type" type="TEXT" null="false"/>
+      <column name="readStatus" type="TEXT" null="false"/>
+      <column name="priority" type="TEXT" null="false"/>
+      <column name="direction" type="TEXT" null="false"/>
+      <column name="availability" type="TEXT" null="false"/>
+      <column name="messageStatus" type="TEXT" null="false"/>
+      <column name="faxResolution" type="TEXT" null="false"/>
+      <column name="faxPageCount" type="INTEGER" null="false"/>
+      <column name="coverIndex" type="INTEGER" null="false"/>
+      <column name="isAttachmentLocal" type="INTEGER" null="false" default="0"/>
+      <column name="localUrl" type="TEXT" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="jsonRepresentation_fk" deferrable="DEFERRED">
+        <column name="jsonRepresentation"/>
+        <references table="ModelJSONRepresentation">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="RcMessageRecord_toModels" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="RcMessageRecord">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="RcMessageRecord_toModels_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="RcMessageRecord_toModels_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="CallerModel">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="RcMessageRecord_attachments" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="RcMessageRecord">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="RcMessageRecord_attachments_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="RcMessageRecord_attachments_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="RcRecordAttachment">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="RcMessage" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="zoomId" type="TEXT" null="false"/>
+      <column name="company" type="INTEGER" null="true"/>
+      <column name="record" type="INTEGER" null="true"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="Item">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="company_fk" deferrable="DEFERRED">
+        <column name="company"/>
+        <references table="Company">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <foreign-key name="record_fk" deferrable="DEFERRED">
+        <column name="record"/>
+        <references table="RcMessageRecord">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Task" kind="polymorphic derived object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="due" type="INTEGER" null="false"/>
+      <column name="section" type="TEXT" null="false"/>
+      <column name="notes" type="TEXT" null="false"/>
+      <column name="assigneeString" type="TEXT" null="false"/>
+      <column name="completeType" type="INTEGER" null="false"/>
+      <column name="completePercentage" type="INTEGER" null="false"/>
+      <column name="isAssignToMe" type="INTEGER" null="false"/>
+      <primary-key>
+        <column name="id"/>
+      </primary-key>
+      <foreign-key name="id_fk" on-delete="CASCADE">
+        <column name="id"/>
+        <references table="ItemReminder">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Task_attachedFiles" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Task">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Task_attachedFiles_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Task_attachedFiles_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="File">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Task_assignees" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="true"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Task">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Task_assignees_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Task_assignees_index_i">
+        <column name="index"/>
+      </index>
+      <foreign-key name="value_fk" deferrable="DEFERRED">
+        <column name="value"/>
+        <references table="Person">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+    </table>
+    <table name="Task_completeAssigneedId" kind="container">
+      <column name="object_id" type="INTEGER" null="false"/>
+      <column name="index" type="INTEGER" null="false"/>
+      <column name="value" type="INTEGER" null="false"/>
+      <foreign-key name="object_id_fk" on-delete="CASCADE">
+        <column name="object_id"/>
+        <references table="Task">
+          <column name="id"/>
+        </references>
+      </foreign-key>
+      <index name="Task_completeAssigneedId_object_id_i">
+        <column name="object_id"/>
+      </index>
+      <index name="Task_completeAssigneedId_index_i">
+        <column name="index"/>
+      </index>
+    </table>
+    <table name="ModelJSONRepresentation" kind="object">
+      <column name="id" type="INTEGER" null="false"/>
+      <column name="value" type="TEXT" null="false"/>
+      <primary-key auto="true">
+        <column name="id"/>
+      </primary-key>
+    </table>
+  </model>
+</changelog>
