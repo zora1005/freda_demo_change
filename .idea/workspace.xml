@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f5d719-c51c-4029-988b-ab2af3bde9f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/steps/JunitTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java" afterPath="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java" afterPath="$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature" afterPath="$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/GlipiOS/drivers/iOSAppiumDriverManagement.class" afterPath="$PROJECT_DIR$/target/classes/GlipiOS/drivers/iOSAppiumDriverManagement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/steps/GlipEmailSignin.class" afterPath="$PROJECT_DIR$/target/test-classes/steps/GlipEmailSignin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/GlipEmailSignin.feature" afterPath="$PROJECT_DIR$/target/test-classes/GlipEmailSignin.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -449,6 +447,14 @@
       <option name="presentableId" value="Default" />
       <updated>1509263122378</updated>
     </task>
+    <task id="LOCAL-00001" summary="add junit">
+      <created>1515422137340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515422137340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -531,7 +537,8 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="modified" />
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="add junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add junit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

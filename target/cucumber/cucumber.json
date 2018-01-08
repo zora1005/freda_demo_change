@@ -1,0 +1,74 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Sign In with email Account",
+        "description": "\n/*Given User switch to correctly Env \"Glip\"*/",
+        "id": "glipemailsignin;sign-in-with-email-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28505027039,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User has valid email and Password",
+            "match": {
+              "location": "GlipEmailSignin.userHasValidEmailAndPassword()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11813734114,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User inputs email \"8882420001\" and Password \"Test!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8882420001",
+                  "offset": 19
+                },
+                {
+                  "val": "Test!123",
+                  "offset": 45
+                }
+              ],
+              "location": "GlipEmailSignin.userInputsEmailAndPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 127427,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User can sign in app",
+            "match": {
+              "location": "GlipEmailSignin.userCanSignInApp()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@p0"
+          }
+        ]
+      }
+    ],
+    "name": "glipemailsignin",
+    "description": "",
+    "id": "glipemailsignin",
+    "keyword": "Feature",
+    "uri": "GlipEmailSignin.feature"
+  }
+]
