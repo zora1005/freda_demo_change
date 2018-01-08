@@ -74,8 +74,8 @@ public class GlipEmailSignin {
     public void userCanSignInApp() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
 
-        notificationScreen = PageFactory.initElements(startDriver,notificationScreen.class);
-        notificationScreen.TurnOnNotification();
+        //notificationScreen = PageFactory.initElements(startDriver,notificationScreen.class);
+        //notificationScreen.TurnOnNotification();
         System.out.println("User signs in successfully.");
         System.out.println();
     }

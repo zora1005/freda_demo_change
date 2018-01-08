@@ -1,821 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47f5d719-c51c-4029-988b-ab2af3bde9f8" name="Default" comment="new">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddMembers.storyboardc/GlipUIAddMembersViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddMembers.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddMembers.storyboardc/tOl-I7-l7X-view-she-GI-YLf.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddNewMessage.storyboardc/GlipUIAddNewMessageViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddNewMessage.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddNewMessage.storyboardc/t3G-RH-cRr-view-jsa-Bf-PGR.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddPerson.storyboardc/GlipUIAddPersonDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddPerson.storyboardc/GlipUIAddPersonViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddPerson.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddPerson.storyboardc/Vdh-LD-lKT-view-RXc-nK-HIA.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AddPerson.storyboardc/XbS-d7-z10-view-TKr-YL-Rxp.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AssigneesSelector.storyboardc/2JN-Xx-tZF-view-h31-MQ-teZ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AssigneesSelector.storyboardc/GlipUIAssigneesSelectorViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/AssigneesSelector.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CalenderDetail.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CalenderDetail.storyboardc/UITableViewController-bFT-D2-uG4.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CalenderDetail.storyboardc/bFT-D2-uG4-view-1O5-dT-Yho.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CreateNewTask.storyboardc/GlipUICreateNewTaskTableViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CreateNewTask.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CreateNewTask.storyboardc/lnh-FD-UsD-view-HtZ-36-Yva.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CreateNewTeam.storyboardc/GlipUICreateNewTeamViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CreateNewTeam.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/CreateNewTeam.storyboardc/uBV-dA-aC0-view-cdF-2W-jgg.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Debug.storyboardc/HYf-cc-228-view-lQw-XQ-eUR.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Debug.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Debug.storyboardc/UITableViewController-HYf-cc-228.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Debug.storyboardc/UIViewController-QxE-M8-f8f.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Debug.storyboardc/debugVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/EmailVerification.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/EmailVerification.storyboardc/UIViewController-stU-Qo-lVJ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/EmailVerification.storyboardc/stU-Qo-lVJ-view-VS4-AB-PF3.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipBrowser.storyboardc/GlipBrowserUIController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipBrowser.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipBrowser.storyboardc/y1p-Ot-RPG-view-h71-ZX-fXx.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUIAtMention.storyboardc/GlipUIAtMentionTableViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUIAtMention.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUIAtMention.storyboardc/KhE-Om-lnn-view-M0b-Sc-XD1.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUIChat.storyboardc/BpW-6I-uew-view-Qf0-PV-AzT.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUIChat.storyboardc/GlipUIChatViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUIChat.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUITaskUpdateCompletedBy.storyboardc/GlipUITaskUpdateCompletedByTableViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUITaskUpdateCompletedBy.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUITaskUpdateCompletedBy.storyboardc/hiv-ii-FS0-view-QsR-VS-gSh.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GlipUITeamTableViewController.storyboardc/UIViewController-Y8x-kU-9vg.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/google@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/google@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/gplus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/gplus@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/gplus@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Launch Screen.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/LogDetailViewController.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/LogDetailViewController.storyboardc/LogDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/LogDetailViewController.storyboardc/QY3-3a-iK6-view-XlC-0I-yFA.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/LogList.storyboardc/HYf-cc-228-view-lQw-XQ-eUR.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/LogList.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/LogList.storyboardc/UITableViewController-HYf-cc-228.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Main.storyboardc/UIViewController-1h6-k2-g1o.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Main.storyboardc/UIViewController-jpU-vp-E7j.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Main.storyboardc/popNavi4.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Main.storyboardc/recentVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Search.storyboardc/3RW-m7-rE9-view-mfy-yJ-zsx.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Search.storyboardc/GlipUISearchNavigationController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Search.storyboardc/GlipUISearchPersonResultTableViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Search.storyboardc/GlipUISpecificSearchViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Search.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Search.storyboardc/Vsa-Rx-IiK-view-ltv-xF-AmG.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Search.storyboardc/oYX-pe-SOR-view-aif-QB-9sh.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SendLastCrash.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SendLastCrash.storyboardc/UINavigationController-crg-U5-Q8g.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SendLastCrash.storyboardc/Y7W-jq-Z1w-view-Kke-m2-MPB.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/ShelfViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/TLU-wd-bDZ-view-qKQ-nm-gge.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/aRi-3h-gdo-view-aRm-9p-d6J.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/cz1-vi-qcG-view-k03-eL-8Jc.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/eventList.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/fileList.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/heT-S6-Atd-view-aEz-EY-z1B.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/linkList.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/memberList.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/noteList.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/p9v-fG-MyB-view-Rxi-k4-IiY.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/taskList.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/wcM-0g-jX2-view-USZ-Hh-nmA.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Shelf.storyboardc/yJ1-ri-GEy-view-fVo-SB-bxZ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/GlipBrowserUIController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/KKS-wd-EVc-view-ykr-6I-hrh.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/UIViewController-Oqm-4X-Mov.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/UIViewController-Wod-vV-wNl.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/UIViewController-e3F-IJ-0cw.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/UIViewController-stU-Qo-lVJ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/forgotVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/sMH-Gy-a0h-view-1yp-Pl-VVr.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/signIn.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/stU-Qo-lVJ-view-VS4-AB-PF3.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignIn.storyboardc/y1p-Ot-RPG-view-h71-ZX-fXx.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/GlipBrowserUIController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/KKS-wd-EVc-view-ykr-6I-hrh.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/UIViewController-3Lo-fQ-iBW.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/UIViewController-Oqm-4X-Mov.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/UIViewController-Wod-vV-wNl.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/UIViewController-e3F-IJ-0cw.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/UIViewController-qQa-49-f4B.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/UIViewController-qkL-xc-AGa.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/UIViewController-stU-Qo-lVJ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/fWH-Gc-ihw-view-0LK-vz-2PJ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/forgotVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/sMH-Gy-a0h-view-1yp-Pl-VVr.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/signIn.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/signUp.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/stU-Qo-lVJ-view-VS4-AB-PF3.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/SignUp.storyboardc/y1p-Ot-RPG-view-h71-ZX-fXx.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/0mM-bh-vqw-view-ri8-qy-bXC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/1vH-cr-jkJ-view-d94-mD-w4w.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/Agh-WP-qY3-view-Fqc-yu-pwz.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/GlipBrowserUIController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/HYf-cc-228-view-lQw-XQ-eUR.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/KKS-wd-EVc-view-ykr-6I-hrh.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UITableViewController-HYf-cc-228.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-3Lo-fQ-iBW.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-Oqm-4X-Mov.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-Ppm-us-1Kf.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-QxE-M8-f8f.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-Wod-vV-wNl.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-e3F-IJ-0cw.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-ib5-nc-1Sg.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-qQa-49-f4B.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-qkL-xc-AGa.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-rt6-2F-05l.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-stU-Qo-lVJ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/UIViewController-vce-aJ-CT6.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/debugVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/fWH-Gc-ihw-view-0LK-vz-2PJ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/forgotVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/naviRoot.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/sMH-Gy-a0h-view-1yp-Pl-VVr.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/signIn.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/signInViaRC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/signUp.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/stU-Qo-lVJ-view-VS4-AB-PF3.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/welcome.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/Welcome.storyboardc/y1p-Ot-RPG-view-h71-ZX-fXx.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/EventDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/FileDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/NoteDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/SX5-gK-biq-view-uhi-UL-DzU.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/TaskDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/Z4t-1u-ip4-view-v2Z-HA-Hd7.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/ftq-Cv-7CT-view-QTp-3x-zwg.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Glip.app/item_detail.storyboardc/klA-VL-WBg-view-ACh-OB-AO7.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ActionFilesTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ActionSingleTextTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ActionTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ActiveAccount.storyboardc/ActiveAccountViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ActiveAccount.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ActiveAccount.storyboardc/dQg-Vp-Par-view-APL-jJ-UAf.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/GlipUIAddMembersByInputEmailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/GlipUIAddMembersFromContactViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/GlipUIAddMembersPersonTypeViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/GlipUIAddMembersViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/QBk-3r-yqn-view-iDu-tf-dAh.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/SbT-7u-HT4-view-AYS-G0-vda.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/pwC-8t-24P-view-SqS-7a-ald.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddMembers.storyboardc/tOl-I7-l7X-view-she-GI-YLf.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddPerson.storyboardc/3qX-LB-yow-view-BV3-Gt-chM.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddPerson.storyboardc/GlipUIAddPersonByInputEmailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddPerson.storyboardc/GlipUIAddPersonFromContactViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddPerson.storyboardc/GlipUIAddPersonTypeSwitchViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddPerson.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddPerson.storyboardc/JQK-Nh-9WB-view-qkZ-4k-5iC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AddPerson.storyboardc/ii0-se-9Lh-view-xP6-Cy-LVq.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon29x29@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon29x29@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon29x29@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon29x29~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon40x40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon40x40@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon40x40@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon40x40~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon60x60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon60x60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon76x76@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon76x76~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/AppIcon83.5x83.5@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Assets.car" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Base.lproj/InfoPlist.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Base.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/7FJ-RG-gJr-view-X6C-dP-nbB.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/7FJ-RG-gJr-view-X6C-dP-nbB.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/CalendarContainerViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/CalendarContainerViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/JoinNowPresentViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/JoinNowPresentViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/PRr-w9-kpX-view-xKr-ni-hYJ.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/PRr-w9-kpX-view-xKr-ni-hYJ.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/PopoverHintController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/PopoverHintController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/UIViewController-qnJ-xs-9EN.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/UIViewController-qnJ-xs-9EN.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/calendar.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/calendar.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/dgU-ib-dDH-view-kOG-z4-WcQ.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/dgU-ib-dDH-view-kOG-z4-WcQ.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/lFd-qB-RL9-view-Ckn-7U-SBv.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/lFd-qB-RL9-view-Ckn-7U-SBv.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/popNavCalendar.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/popNavCalendar.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/qnJ-xs-9EN-view-n59-4v-iZj.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Calendar.storyboardc/qnJ-xs-9EN-view-n59-4v-iZj.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallLog.storyboardc/HmS-q6-b0F-view-pIL-KX-e7h.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallLog.storyboardc/HmS-q6-b0F-view-pIL-KX-e7h.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallLog.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallLog.storyboardc/popNavCallLog.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallLog.storyboardc/popNavCallLog.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallLogProfileCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallStatus.storyboardc/D9O-qN-tLF-view-s98-At-yxc.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallStatus.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallStatus.storyboardc/UIViewController-edb-HR-aig.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallStatus.storyboardc/callStatusViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CallStatus.storyboardc/edb-HR-aig-view-SX2-fD-cKm.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/BpW-6I-uew-view-Qf0-PV-AzT.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/BpW-6I-uew-view-Qf0-PV-AzT.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/ChatVC.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/ChatVC.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/ChatVCOld.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/ChatVCOld.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/FCK-94-lCV-view-cPV-04-EO9.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/FCK-94-lCV-view-cPV-04-EO9.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Chat.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CrashTest.storyboardc/CRLMasterViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CrashTest.storyboardc/CRLMasterViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CrashTest.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CrashTest.storyboardc/w3U-uX-78z-view-bAi-Qk-ahR.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CrashTest.storyboardc/w3U-uX-78z-view-bAi-Qk-ahR.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateContactProfileCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewNote.storyboardc/9yi-Rd-Hnj-view-YeV-4t-dab.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewNote.storyboardc/CreateNewNoteViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewNote.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTask.storyboardc/GlipUICreateNewTaskTableViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTask.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTask.storyboardc/lnh-FD-UsD-view-HtZ-36-Yva.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/GlipUICreateNewTeamViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/GlipUICreateNewTeamViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/GlipUICreateTeamPersonTypeViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/GlipUICreateTeamPersonTypeViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/nzX-CX-dZ1-view-UDa-0j-Qnt.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/nzX-CX-dZ1-view-UDa-0j-Qnt.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/uBV-dA-aC0-view-cdF-2W-jgg.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/CreateNewTeam.storyboardc/uBV-dA-aC0-view-cdF-2W-jgg.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/0mM-bh-vqw-view-ri8-qy-bXC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/4YI-Jf-1i3-view-79p-Xc-PVO.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/AddEnvViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/EnvironmentList.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/GXY-0i-J6F-view-vMv-NN-VmH.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/UIViewController-4YI-Jf-1i3.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/UIViewController-QxE-M8-f8f.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/X46-tO-SSe-view-sZg-18-Qvs.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Debug.storyboardc/debugVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Elevator.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Event.storyboardc/GlipUIEventViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Event.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Event.storyboardc/pEN-EF-xqM-view-bTj-6V-7Ym.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/FlipNumberTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/CWStatusBarNotification.framework/CWStatusBarNotification" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/CWStatusBarNotification.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/DTCoreText.framework/DTCoreText" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/DTCoreText.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/DTFoundation.framework/DTFoundation" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/DTFoundation.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/FMDB.framework/FMDB" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/FMDB.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/GlipCore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Action.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Action@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Action@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/CancePressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/CancePressed@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/CancePressed@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Cancel@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Cancel@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/IDMPhotoBrowser_arrowLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/IDMPhotoBrowser_arrowLeft@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/IDMPhotoBrowser_arrowRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/IDMPhotoBrowser_arrowRight@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Placeholder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Placeholder@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPhotoBrowser.bundle/images/Placeholder@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/JTCalendar.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/JTCalendar.framework/JTCalendar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/MGSwipeTableCell.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/MGSwipeTableCell.framework/MGSwipeTableCell" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/SDWebImage.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/SDWebImage.framework/SDWebImage" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/Spring.framework/Assets.car" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/Spring.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/Spring.framework/LoadingView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/Spring.framework/Spring" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/TTTAttributedLabel.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/TTTAttributedLabel.framework/TTTAttributedLabel" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/YYText.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/YYText.framework/YYText" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/ZipKit.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/ZipKit.framework/ZipKit" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftAVFoundation.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftAssetsLibrary.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCallKit.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftContacts.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCore.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCoreAudio.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCoreData.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCoreFoundation.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCoreGraphics.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCoreImage.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCoreLocation.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftCoreMedia.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftDarwin.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftDispatch.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftFoundation.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftIntents.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftMediaPlayer.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftMetal.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftObjectiveC.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftPhotos.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftQuartzCore.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftUIKit.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftos.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/libswiftsimd.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/shareDataKit.framework/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/shareDataKit.framework/shareDataKit" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Glip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipAtMentionTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipChatHeaderCellView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipFileDownloadingUIView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipFileUnsupportedPreviewView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipFont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIAlternativePersonTypeTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUICallControlViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIChatIndividualHeaderView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIChatMeHeaderView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIChatTeamHeaderView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIChatTitleView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIContactPikerTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIDefaultPersonTypeTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIHomeTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIHomeTableViewFooter.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIIncomingCallViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUIPeoplePickerTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUISMSPersonPickerTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUITaskColorSelectorCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUITaskCommonCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUITaskCompletionPercentageCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUITaskDatePickerCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUITaskPickerCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GlipUITransferStatusBanner.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Goodbye.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/Roboto-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/google@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/google@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HelpshiftConfig.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HelpshiftConfigDark.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HelpshiftConfigHighContrast.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HsLocalization.bundle/en.lproj/HelpshiftLocalizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HsLocalization.bundle/zh-Hans.lproj/HelpshiftLocalizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HsUIResourceBundle.bundle/Assets.car" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HsUIResourceBundle.bundle/HsMultilineTextCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HsUIResourceBundle.bundle/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/HsUIResourceBundle.bundle/hsContactUsFooterView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/InvitePeople.storyboardc/CNw-E4-QSe-view-RRc-G7-ckX.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/InvitePeople.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/InvitePeople.storyboardc/InvitePeopleViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Jazz.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/LabelButton.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/LogList.storyboardc/HYf-cc-228-view-lQw-XQ-eUR.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/LogList.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/LogList.storyboardc/UITableViewController-HYf-cc-228.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MailboxFull.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Main.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Main.storyboardc/tabBarVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Messages.storyboardc/GlipUIRecentChatViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Messages.storyboardc/H1V-2r-1LN-view-bt0-Ol-jFg.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Messages.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Messages.storyboardc/popNavMessages.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MoreTab.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MoreTab.storyboardc/popNavMoreTab.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MoreTab.storyboardc/pst-H7-fup-view-EQc-2P-nJl.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MoreTabTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MyTasks.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MyTasks.storyboardc/hwy-5m-2H9-view-dIJ-a0-9TH.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MyTasks.storyboardc/myTask.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/MyTasks.storyboardc/popNavMyTasks.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/NATone.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/NoCLID.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/1r3-22-Dnh-view-XRq-uE-kfP.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/DialPadViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/QWP-m1-mO6-view-WdA-V9-3fA.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/UIViewController-QWP-m1-mO6.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/UIViewController-ctL-Vz-mYT.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/UIViewController-oTx-Xw-odJ.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/UIViewController-uI5-oV-zAD.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/UIViewController-vR4-ca-5Wb.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/Vjd-bT-v8p-view-d3b-dG-GkC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/ctL-Vz-mYT-view-pEK-28-vNm.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/oTx-Xw-odJ-view-Ndr-S7-eRL.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/phoneNumberPopOverViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/popNavPhone.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/saX-zN-Fsv-view-sqn-GG-znW.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/uI5-oV-zAD-view-Ir2-9I-avs.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Phone.storyboardc/vR4-ca-5Wb-view-MDF-vh-I2G.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PhoneActivityTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PhoneTabBarCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipNotificationServiceExtension.appex/GlipNotificationServiceExtension" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipNotificationServiceExtension.appex/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Assets.car" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/Azs-x2-AMG-view-CFA-45-Pzj.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/ShareAlertViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/ShareProgressViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/ShareRetryViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/ShareSearchViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/T5h-n5-VwD-view-WwD-XS-NPE.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/UCg-hx-yDy-view-bqr-jF-0b3.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/UIViewController-j1y-V4-xli.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/j1y-V4-xli-view-wbc-yd-nQP.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Base.lproj/MainInterface.storyboardc/jLw-xk-9mf-view-SDf-j0-SBf.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/GlipShareExtension" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/zh-Hans.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/5FJ-35-pDD-view-wit-VV-M5Q.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/5FJ-35-pDD-view-wit-VV-M5Q.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/UINavigationController-1t4-KA-GSu.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/UINavigationController-1t4-KA-GSu.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/callLogProfile.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/callLogProfile.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/lHG-cS-nz4-view-90N-gW-pXG.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/lHG-cS-nz4-view-90N-gW-pXG.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/oh5-sv-kbE-view-Ipc-RU-SEC.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/oh5-sv-kbE-view-Ipc-RU-SEC.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/profile.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/profile.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/profilePopOverViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Profile.storyboardc/profilePopOverViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ProfileHeaderSectionView.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ProfilePhoneCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/RCCall.storyboardc/Ge3-fN-idu-view-wZW-9X-Gw0.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/RCCall.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/RCCall.storyboardc/popNavRCCall.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Search.storyboardc/3RW-m7-rE9-view-mfy-yJ-zsx.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Search.storyboardc/GlipUISearchNavigationController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Search.storyboardc/GlipUISearchPersonResultTableViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Search.storyboardc/GlipUISpecificSearchViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Search.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Search.storyboardc/Vsa-Rx-IiK-view-ltv-xF-AmG.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Search.storyboardc/oYX-pe-SOR-view-aif-QB-9sh.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/5CE-bJ-DY3-view-hPL-zY-arC.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/5CE-bJ-DY3-view-hPL-zY-arC.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/5at-cr-m78-view-peI-zm-mYD.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/5at-cr-m78-view-peI-zm-mYD.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/AboutTableViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/AboutTableViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/AnswerIncomingCallSettingTableViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/AnswerIncomingCallSettingTableViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/BK9-Ux-NYe-view-cWs-XN-Lgj.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/BK9-Ux-NYe-view-cWs-XN-Lgj.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/CallerIDSettingTableViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/CallerIDSettingTableViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/EmailSettingTableViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/EmailSettingTableViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/Lwn-Pt-T5E-view-JXM-Ew-MiJ.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/Lwn-Pt-T5E-view-JXM-Ew-MiJ.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/MobileNotificationTableViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/MobileNotificationTableViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/MsF-Td-hHj-view-EzZ-Wc-SaN.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/MsF-Td-hHj-view-EzZ-Wc-SaN.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/RegionTableViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/RegionTableViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/Settings.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/Settings.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/SettingsWrapper.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/SettingsWrapper.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/kJk-XG-37e-view-agN-wI-uYF.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/kJk-XG-37e-view-agN-wI-uYF.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/l60-Hz-UnZ-view-i2H-jQ-cX4.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/l60-Hz-UnZ-view-i2H-jQ-cX4.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/popNavSettings.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/popNavSettings.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/zzE-tO-bZ8-view-HUD-qK-qBV.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Settings.storyboardc/zzE-tO-bZ8-view-HUD-qK-qBV.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SetupAccount.storyboardc/GlipSetupAccountViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SetupAccount.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SetupAccount.storyboardc/rUJ-zf-JHN-view-ddu-4E-ecL.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/ShelfViewController.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/ShelfViewController.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/TLU-wd-bDZ-view-qKQ-nm-gge.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/TLU-wd-bDZ-view-qKQ-nm-gge.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/aRi-3h-gdo-view-aRm-9p-d6J.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/aRi-3h-gdo-view-aRm-9p-d6J.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/cz1-vi-qcG-view-k03-eL-8Jc.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/cz1-vi-qcG-view-k03-eL-8Jc.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/eventList.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/eventList.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/fileList.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/fileList.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/heT-S6-Atd-view-aEz-EY-z1B.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/heT-S6-Atd-view-aEz-EY-z1B.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/linkList.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/linkList.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/memberList.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/memberList.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/noteList.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/noteList.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/p9v-fG-MyB-view-Rxi-k4-IiY.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/p9v-fG-MyB-view-Rxi-k4-IiY.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/taskList.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/taskList.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/wcM-0g-jX2-view-USZ-Hh-nmA.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/wcM-0g-jX2-view-USZ-Hh-nmA.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/yJ1-ri-GEy-view-fVo-SB-bxZ.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Shelf.storyboardc/yJ1-ri-GEy-view-fVo-SB-bxZ.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignIn.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignIn.storyboardc/SignInViaRC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignIn.storyboardc/UIViewController-3Dq-DY-63O.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignIn.storyboardc/forgotVC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignIn.storyboardc/sMH-Gy-a0h-view-1yp-Pl-VVr.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignIn.storyboardc/signIn.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignInViaRC.storyboardc/Agh-WP-qY3-view-Fqc-yu-pwz.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignInViaRC.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/SignInViaRC.storyboardc/signInViaRC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/TaskTableViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/VoiceMail.storyboardc/40w-sc-RlJ-view-RQS-oS-U8C.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/VoiceMail.storyboardc/40w-sc-RlJ-view-RQS-oS-U8C.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/VoiceMail.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/VoiceMail.storyboardc/VoicemailDetail.nib/objects-11.0+.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/VoiceMail.storyboardc/VoicemailDetail.nib/runtime.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Walts.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/1vH-cr-jkJ-view-d94-mD-w4w.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/EnterEmailAddress.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/SignInViaRC.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/UIViewController-ib5-nc-1Sg.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/UIViewController-vce-aJ-CT6.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/naviRoot.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Welcome.storyboardc/welcome.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/WelcomeFirstCollectionViewCell.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSbgcolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSbgcolor@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSbold.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSbold@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSbold@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSScenterjustify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSScenterjustify@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSclearstyle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSclearstyle@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSfonts.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSfonts@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSforcejustify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSforcejustify@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh1@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh2@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh3@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh4@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh5@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSh6@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSShorizontalrule.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSShorizontalrule@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSimage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSimage@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSimageDevice.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSimageDevice@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSindent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSindent@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSindent@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSinsertkeyword.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSinsertkeyword@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSitalic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSitalic@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSitalic@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSkeyboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSkeyboard@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSkeyboard@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSleftjustify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSleftjustify@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSlink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSlink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSorderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSorderedlist@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSorderedlist@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSoutdent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSoutdent@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSoutdent@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSparagraph.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSparagraph@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSpicker.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSpicker@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSquicklink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSquicklink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSredo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSredo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSrightjustify.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSrightjustify@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSstrikethrough.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSstrikethrough@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSsubscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSsubscript@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSsuperscript.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSsuperscript@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSStable.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSStable@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSStextcolor.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSStextcolor@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunderline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunderline@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunderline@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSundo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSundo@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunlink.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunlink@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunorderedlist.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunorderedlist@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSunorderedlist@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSviewsource.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSviewsource@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/busy.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/en.lproj/HelpshiftLocalizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/EventDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/FileDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/NoteDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/SX5-gK-biq-view-uhi-UL-DzU.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/TaskDetailViewController.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/Z4t-1u-ip4-view-v2Z-HA-Hd7.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/ftq-Cv-7CT-view-QTp-3x-zwg.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/item_detail.storyboardc/klA-VL-WBg-view-ACh-OB-AO7.nib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/libswiftRemoteMirror.dylib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/mThorIncomingCallNotificationRingtone.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/pound.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/star.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone0.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone1.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone2.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone3.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone4.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone5.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone6.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone7.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone8.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/tone9.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/toneReconnecting.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome-568h@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome-667h@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome-736h@3x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome-Landscape@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome-Landscape~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome-Portrait@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome-Portrait~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/welcome@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/zh-Hans.lproj/HelpshiftLocalizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/zh-Hans.lproj/InfoPlist.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/zh-Hans.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/CWStatusBarNotification.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/DTCoreText.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/DTFoundation.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/FMDB.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/GlipCore.bundle/en.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/GlipCore.bundle/zh-Hans.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/glip-odb.ixx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/glip.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/GlipCore.framework/pre_env.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPBLocalizations.bundle/de.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPBLocalizations.bundle/en.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPBLocalizations.bundle/es.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPBLocalizations.bundle/fr.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPBLocalizations.bundle/pt.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPBLocalizations.bundle/ru.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/IDMPBLocalizations.bundle/zh-Hans.lproj/Localizable.strings" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/IDMPhotoBrowser.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/JTCalendar.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/MGSwipeTableCell.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/SDWebImage.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/Spring.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/TTTAttributedLabel.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/YYText.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/ZipKit.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Frameworks/shareDataKit.framework/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/JSBeautifier.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/NOTICE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PkgInfo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipNotificationServiceExtension.appex/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/PlugIns/GlipShareExtension.appex/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/Release-6.1.0.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/ZSSRichTextEditor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/_CodeSignature/CodeResources" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/editor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/jQuery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/labFeature.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/meetingEventRegex_9_0_1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/n11_1.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/n11_224.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/n11_39.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/phonedata.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/pre_env.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/new Glip.app/pre_log_tag.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GlipiOS/pages/DebugScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    <list default="true" id="47f5d719-c51c-4029-988b-ab2af3bde9f8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/steps/JunitTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java" afterPath="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/startDriver.java" afterPath="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/startDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlipiOS/pages/EnvironmentScreen.java" afterPath="$PROJECT_DIR$/src/main/java/GlipiOS/pages/EnvironmentScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlipiOS/pages/notificationScreen.java" afterPath="$PROJECT_DIR$/src/main/java/GlipiOS/pages/notificationScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/GlipiOS/pages/welcomeScreen.java" afterPath="$PROJECT_DIR$/src/main/java/GlipiOS/pages/welcomeScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java" afterPath="$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature" afterPath="$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature" />
     </list>
@@ -833,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="iOSAppiumDriverManagement.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GlipEmailSignin.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iOSAppiumDriverManagement.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-164">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="166">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -845,11 +44,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="startDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GlipiOS/drivers/startDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JunitTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/JunitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GlipEmailSignin.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -901,10 +132,11 @@
         <option value="$PROJECT_DIR$/src/main/java/GlipiOS/pages/EnvironmentScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/GlipiOS/pages/welcomeScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/GlipiOS/pages/DebugScreen.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature" />
-        <option value="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/JunitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java" />
       </list>
     </option>
   </component>
@@ -916,8 +148,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
-    <option name="y" value="70" />
+    <option name="x" value="177" />
+    <option name="y" value="31" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
   </component>
@@ -943,6 +175,69 @@
             <path>
               <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
               <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GlipiOS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GlipiOS" type="462c0819:PsiDirectoryNode" />
+              <item name="drivers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="freda_demo_change" type="b2602c69:ProjectViewProjectNode" />
+              <item name="freda_demo_change" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -978,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: GlipEmailSignin">
+  <component name="RunManager" selected="JUnit.JunitTest">
     <configuration name="Feature: GlipEmailSignin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1024,6 +319,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="freda_demo" />
       <envs />
+    </configuration>
+    <configuration name="JunitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="steps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="freda_demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="steps.JunitTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -1106,13 +426,15 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: GlipRCSignin" />
       <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: GlipEmailSignin" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.JunitTest" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: GlipEmailSignin" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JunitTest" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: GlipEmailSignin" />
       </list>
     </recent_temporary>
   </component>
@@ -1130,18 +452,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__GlipEmailSignin - 2018.01.01 at 18h 39m 02s.xml">
-      <configuration name="Feature: GlipEmailSignin" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__GlipEmailSignin - 2018.01.01 at 20h 49m 53s.xml">
-      <configuration name="Feature: GlipEmailSignin" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__GlipEmailSignin - 2018.01.01 at 21h 01m 17s.xml">
-      <configuration name="Feature: GlipEmailSignin" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__GlipEmailSignin - 2018.01.01 at 21h 03m 28s.xml">
-      <configuration name="Feature: GlipEmailSignin" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__GlipEmailSignin - 2018.01.01 at 21h 13m 56s.xml">
       <configuration name="Feature: GlipEmailSignin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -1160,6 +470,18 @@
     <history-entry file="Feature__GlipEmailSignin - 2018.01.05 at 17h 46m 58s.xml">
       <configuration name="Feature: GlipEmailSignin" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="JunitTest - 2018.01.08 at 22h 24m 40s.xml">
+      <configuration name="JunitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JunitTest - 2018.01.08 at 22h 25m 47s.xml">
+      <configuration name="JunitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JunitTest - 2018.01.08 at 22h 27m 53s.xml">
+      <configuration name="JunitTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JunitTest - 2018.01.08 at 22h 31m 17s.xml">
+      <configuration name="JunitTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1171,18 +493,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="70" width="1440" height="812" extended-state="0" />
+    <frame x="177" y="31" width="1440" height="812" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32078102" sideWeight="0.45708156" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44769874" sideWeight="0.53290415" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.3583691" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.49341437" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44769874" sideWeight="0.46709585" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.490701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44769874" sideWeight="0.45565093" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.6416309" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21530758" sideWeight="0.4927235" order="0" side_tool="false" content_ui="combo" />
@@ -1197,7 +520,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32078102" sideWeight="0.46852645" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32825485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1216,14 +538,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/GlipiOS/pages/welcomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/GlipiOS/drivers/iOSAppiumDriverManagement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1516,16 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GlipiOS/drivers/startDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/cli/Main.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1547,14 +851,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,29 +915,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/JunitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-164">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/GlipEmailSignin.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/GlipEmailSignin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="83" column="0" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GlipiOS/drivers/startDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GlipiOS/drivers/iOSAppiumDriverManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
