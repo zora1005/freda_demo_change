@@ -1,0 +1,333 @@
+{  
+    "version":"9.0.1.19.1213",
+    "availableFromVersion":"9.0.1",
+    "availableEndVersion":"",
+    "production":1,
+    "minimumLength":10,
+    "globalSettings":{
+        "appleStoreURL":"https://itunes.apple.com",
+        "androidMarketDetailURL":"market://details",
+        "androidGooglePlayDetailURL":"https://play.google.com/store/apps/details"
+    },
+    "globalRegexs":{
+        "meetingCodePrefix":"[\u00A0\r\n ]((participants?)|(pins?)|(codes?)|(ids?)|(réunion)|(ID de la reuni®Æn)|(ID riunione))[\u00A0\r\n ]*[:=]{0,2}[\u00A0\r\n ]*",
+        "commonMeetingCodeRegex":"<!_regex:=meetingCodePrefix/>(?<MeetingCode>\\d[-\\d\u00A0 ]{3,18}\\d)",
+        "rcMeetingCodeRegex":"<!_regex:=meetingCodePrefix/>(?<MeetingCode>\\d[-\\d\u00A0 ]{4,18}\\d)"
+    },
+    "meetingEventRegexs":[  
+        {  
+            "typeName":"RingCentral Meetings",
+            "serviceKeyword":"https?://\\w+\\.+ringcentral\\.com/[jw]/(?<MeetingCodeInServiceURL>\\d+)(/[-\\w\\\\@:%+.~#?;&/=]+)?",
+            "phoneInfo":"(: *(?<Number>0[-\\d\\.\\(\\) ]{8,18}\\d))|(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)|([\r\n:][ \u00A0]*(?<Number>[\\d\\(][-\\d\\.\\(\\) ]{8,18}\\d) +(?<Name>[^\r\n\\+: ][^\r\n\\+:]*))",
+            "codeInfo":"<!_regex:=rcMeetingCodeRegex/>",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCodeExtensive}#,,#",
+            "meetingCode":"{MeetingCodeExtensive}",
+            "joinOpenUri":{  
+                "default":"{serviceKeyword}",
+                "ios":{  
+                    "1210":[
+                    	"zoomrc://ringcentral.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{appleStoreURL}/us/app/id688920955"
+                    	]
+                },
+                "android":{  
+                    "1210":[
+                    	"zoomrc://ringcentral.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{androidMarketDetailURL}?id=com.ringcentral.meetings",
+                    	"{androidGooglePlayDetailURL}?id=com.ringcentral.meetings"
+                    	]
+                }
+            },
+            "meetingAppName":"RingCentral Meetings"
+        },
+        {  
+            "typeName":"RingCentral Meetings",
+            "phoneInfo":"(: *(?<Number>0[-\\d\\.\\(\\) ]{8,18}\\d))|(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)|([\r\n:][ \u00A0]*(?<Number>[\\d\\(][-\\d\\.\\(\\) ]{8,18}\\d) +(?<Name>[^\r\n\\+: ][^\r\n\\+:]*))",
+            "serviceKeyword":"https?://rcdev\\.zoom\\.us/j/(?<MeetingCodeInServiceURL>\\d+)",
+            "codeInfo":"<!_regex:=rcMeetingCodeRegex/>",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCodeExtensive}#,,#",
+            "meetingCode":"{MeetingCodeExtensive}",
+            "joinOpenUri":{  
+                "default":"{serviceKeyword}",
+                "ios":{  
+                    "1210":[
+                    	"zoomrc://ringcentral.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{appleStoreURL}/us/app/id688920955"
+                    	]
+                },
+                "android":{  
+                    "1210":[
+                    	"zoomrc://ringcentral.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{androidMarketDetailURL}?id=com.ringcentral.meetings",
+                    	"{androidGooglePlayDetailURL}?id=com.ringcentral.meetings"
+                    	]
+                }
+            },
+            "meetingAppName":"RingCentral Meetings"
+        },
+        {  
+            "typeName":"RingCentral Video Conference",
+            "serviceKeyword":"https?://(\\w+\\.)?v\\.ringcentral\\.com/(((welcome/)?join/(?<RcPMI>\\w+))|(conf/on/(?<RcPMI>\\w+)(/[-\\w\\\\@:%+.~#?;&/=]+)?))",
+            "phoneInfo":"",
+            "codeInfo":"",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCodeExtensive}#,,#",
+            "meetingCode":"{MeetingCodeExtensive}",
+            "joinOpenUri":"{serviceKeyword}",
+            "meetingAppName":"RCV"
+        },
+        {  
+            "typeName":"RC Telus Meetings",
+            "serviceKeyword":"https?://.+telus.*\\.com/j/(?<MeetingCodeInServiceURL>\\d+)",
+            "phoneInfo":"(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)|((?<Number>[\\d\\(][-\\d\\.\\(\\) ]{8,18}\\d) +(?<Name>[^\r\n\\+: ][^\r\n\\+:]*))",
+            "codeInfo":"<!_regex:=rcMeetingCodeRegex/>",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCodeExtensive}#,,1,,#",
+            "meetingCode":"{MeetingCodeExtensive}",
+            "joinOpenUri":{  
+                "default":"{serviceKeyword}",
+                "ios":{  
+                    "7310":[
+                    	"zoomtelus://ringcentral-telus.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{appleStoreURL}/ca/app/id946216583"
+                    	]
+                },
+                "android":{  
+                    "7310":[
+                    	"zoomtelus://ringcentral-telus.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{androidMarketDetailURL}?id=com.telus.businessconnect.meetings",
+                    	"{androidGooglePlayDetailURL}?id=com.telus.businessconnect.meetings"
+                    	]
+                }
+            },
+            "meetingAppName":"TELUS Business Connect™ Meetings"
+        },
+        {  
+            "typeName":"RC BT Meetings",
+            "serviceKeyword":"https?://.+bt.*\\.com/j/(?<MeetingCodeInServiceURL>\\d+)",
+            "phoneInfo":"(: *(?<Number>0[-\\d\\.\\(\\) ]{8,18}\\d))|(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":"<!_regex:=rcMeetingCodeRegex/>",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCodeExtensive}#,,1,,#",
+            "meetingCode":"{MeetingCodeExtensive}",
+            "joinOpenUri":{  
+                "default":"{serviceKeyword}",
+                "ios":{  
+                    "7710":[
+                    	"zoombt://ringcentral-bt.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{appleStoreURL}/gb/app/id949928529"
+                    	]
+                },
+                "android":{  
+                    "7710":[
+                    	"zoombt://ringcentral-bt.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{androidMarketDetailURL}?id=com.bt.cloudphonemeetings",
+                    	"{androidGooglePlayDetailURL}?id=com.bt.cloudphonemeetings"
+                    	]
+                }
+            },
+            "meetingAppName":"BT Cloud Phone Meetings"
+        },
+        {
+            "typeName":"RC ATT Meetings",
+            "serviceKeyword":"(?<ServiceURL>https?://.*officeathand\\.att\\.com/j/(?<MeetingCodeInServiceURL>\\d+))|(?<ServiceURL>https?://attdev\\.zoom\\.us/j/(?<MeetingCodeInServiceURL>\\d+))",
+            "phoneInfo":"(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":"<!_regex:=rcMeetingCodeRegex/>",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCodeExtensive}#,,1,,#",
+            "meetingCode":"{MeetingCodeExtensive}",
+            "joinOpenUri":{  
+                "default":"{serviceKeyword}",
+                "ios":{  
+                    "3420":[
+                    	"zoomatt://ringcentral-officeathand-att.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{appleStoreURL}/us/app/id835895780"
+                    	]
+                },
+                "android":{  
+                    "3410":[
+                    	"zoomatt://ringcentral-officeathand-att.zoom.us/join?confno={MeetingCodeExtensive}",
+                    	"{androidMarketDetailURL}?id=com.att.meetings",
+                    	"{androidGooglePlayDetailURL}?id=com.att.meetings"
+                    	],
+                    "3420":[
+                        "zoomatt://ringcentral-officeathand-att.zoom.us/join?confno={MeetingCodeExtensive}",
+                        "{androidMarketDetailURL}?id=com.att.meetings",
+                        "{androidGooglePlayDetailURL}?id=com.att.meetings"
+                        ]
+                }
+            },
+            "meetingAppName":"Office@Hand Meetings"
+        },
+        {  
+            "typeName":"FCC and RCC Meetings",
+            "serviceKeyword":"https?://([\\w-]+\\.)*rcconf\\.net/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)( *:?[\u00A0\r\n ]*)(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":":[\u00A0\r\n ]*(?<MeetingCode>\\d[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}"
+        },
+        {  
+            "typeName":"FCC and RCC Meetings - RCC US",
+            "serviceKeyword":"https?://(\\w+\\.)+ringcentral\\.com/conferencing",
+            "phoneInfo":"\n *(?<Number>[\\d\\(][-\\d\\.\\(\\) ]{8,18}\\d)|(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":":[\u00A0\r\n ]*(?<MeetingCode>[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}"
+        },
+        {  
+            "typeName":"FCC and RCC Meetings - ATT",
+            "serviceKeyword":"https?://asecare\\.att\\.com/ProductDocument/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)( *:?[\u00A0\r\n ]*)(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":":[\u00A0\r\n ]*(?<MeetingCode>[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}"
+        },
+        {  
+            "typeName":"FCC and RCC Meetings - TELUS",
+            "serviceKeyword":"https?://business\\.telus\\.com/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)( *:?[\u00A0\r\n ]*)(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":":[\u00A0\r\n ]*(?<MeetingCode>[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}"
+        },
+        {  
+            "typeName":"FCC and RCC Meetings - BT",
+            "serviceKeyword":"https?://([\\w-]+\\.)+btcloudphone\\.bt\\.com/conferencing",
+            "phoneInfo":"(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)( *:?[\u00A0\r\n ]*)(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":":[\u00A0\r\n ]*(?<MeetingCode>[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}"
+        },
+        {  
+            "typeName":"Webex Meetings",
+            "serviceKeyword":"https?://([\\w-]+\\.)+webex\\.com/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)|((?<Number>[\\d\\(][-\\d\\.\\(\\) ]{8,18}\\d) +(?<Name>[^\r\n\\+: ][^\r\n\\+:]*))",
+            "codeInfo":":[\u00A0 ]*(?<MeetingCode>\\d[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"GotoMeeting Meetings",
+            "serviceKeyword":"https?://([\\w-]+\\.)*gotomeeting\\.com/join/+\\d+",
+            "phoneInfo":"(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)( *:?[\u00A0\r\n ]*)(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)",
+            "codeInfo":"<!_regex:=commonMeetingCodeRegex/>",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"ATT Meeting",
+            "serviceKeyword":"https?://connect.*\\.att\\.com/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)(:[\u00A0\r\n ]*)(?<Number>(\\+\\d{1,3}[-\\. ]*)?(\\d+[\\-\\.]){2,}\\d{2,})",
+            "codeInfo":"[\u00A0\r\n ][cC]ode *:? *(?<MeetingCode>\\d[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"Lync Meeting",
+            "serviceKeyword":"https?://meet\\.lync\\.com/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)(:[\u00A0\r\n ]*)(?<Number>(\\+\\d{1,3}[-\\. ]*)?(\\d+[\\-\\.]){2,}\\d{2,})",
+            "codeInfo":"[\u00A0\r\n ][cC]ode *:? *(?<MeetingCode>\\d[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"Zoom Meeting",
+            "serviceKeyword":"https?://(\\w+\\.)?zoom\\.us/j/\\d+",
+            "phoneInfo":"(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d) *(?<Name>\\([^\r\n\\+: ][^\r\n\\+:]*\\))?",
+            "codeInfo":": *(?<MeetingCode>\\d[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#,,#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"JoinMe Meeting",
+            "serviceKeyword":"https?://join\\.me/[-\\w\\\\@:%+.~#?;&/=]*",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {
+            "typeName":"Google Hangouts",
+            "serviceKeyword":"(?<ServiceURL>https?://hangouts\\.google\\.com/((call)|(hangouts))/[-\\w]+)|\\<(?<ServiceURL>https?://urldefense\\.proofpoint\\.com/v2/url\\?u=https?\\-3A__plus\\.google\\.com_hangouts_[^\r\n\u00A0 ]+)\\>",
+            "joinOpenUri":"{ServiceURL}"
+        },
+        {
+            "typeName":"Google Meet",
+            "serviceKeyword":"(https?://)?meet\\.google\\.com/[-\\w]+)",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"Bluejeans Meeting",
+            "serviceKeyword":"https?://bluejeans\\.com/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d) *(?<Name>[^\r\n\\+: ][^\r\n\\+:]*)?",
+            "codeInfo":": *(?<MeetingCode>\\d[-\\d\u00A0 ]{4,28}\\d)",
+            "dialInfo":"{Number} {Name}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"Fuze Meeting",
+            "serviceKeyword":"https?://fuze\\.me/(?<MeetingCode>\\d[-\\d]{3,28}\\d)",
+            "phoneInfo":"(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d) *(?<Name>\\([^\r\n\\+: ][^\r\n\\+:]*\\))?",
+            "codeInfo":"",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"Uber Conference",
+            "serviceKeyword":"(https?://)?([\\w-]+\\.)?[uU]ber[cC]onference\\.com/[-\\w\\\\@:%+.~#?;&/=]*",
+            "phoneInfo":"(?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)|(?<Number>[\\d\\(][-\\d\\.\\(\\) ]{8,18}\\d)",
+            "codeInfo":"[\u00A0\r\n ]([pP][iI][nN]) *:? *(?<MeetingCode>\\d[-\\d\u00A0 ]{3,28}\\d)",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#",
+            "meetingCode":"{MeetingCode}",
+            "joinOpenUri":"{serviceKeyword}"
+        },
+        {  
+            "typeName":"Universal",
+            "serviceKeyword":"",
+            "phoneInfo":"([:\u00A0\r\n \"]|^)((?<Number>\\+\\d{1,3}[-\\. ]*[\\d\\(][-\\d\\.\\(\\) ]{6,18}\\d)|(?<Number>[\\d\\(][-\\d\\.\\(\\) ]{8,18}\\d))",
+            "codeInfo":"<!_regex:=commonMeetingCodeRegex/>",
+            "dialInfo":"{Number}",
+            "dialPhoneNumber":"{Number}",
+            "dialInPostfix":",,{MeetingCode}#,,#",
+            "meetingCode":"{MeetingCode}"
+        }
+    ]
+}

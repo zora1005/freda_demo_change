@@ -1,0 +1,446 @@
+{
+    "data": [
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:23304", 
+                "cacheServer": "https://aws13-g04-uds01.asialab.glip.net:23307", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:23306/upload", 
+                "downloadServer": "https://aws13-g04-uds01.asialab.glip.net:23306"
+            }, 
+            "id": 0, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "XMN-Lab"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://api-glpintams.lab.nordigy.ru", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://app.glipdemo.com", 
+                "cacheServer": "https://cache.glipdemo.com", 
+                "uploadServer": "https://api.glipdemo.com/upload", 
+                "downloadServer": "https://api.glipdemo.com"
+            }, 
+            "id": 2, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "GlipDemo"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://api-mucc.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://app.glip.com", 
+                "cacheServer": "https://cache.glip.com", 
+                "uploadServer": "https://api.glip.com/upload", 
+                "downloadServer": "https://api.glip.com"
+            }, 
+            "id": 1, 
+            "collectionServer": "https://mthoredc.ringcentral.com", 
+            "name": "Glip"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "clientSecret": "", 
+                "redirectUri": "https://aws21-g43-udp01.asialab.glip.net:23304/api/no-auth/rc-signon/mobile", 
+                "clientId": "9ILFt1PlRni5_4flx9ujGA"
+            }, 
+            "glip_env": {
+                "apiServer": "https://api.aws21-g43-udp01.asialab.glip.net:23304", 
+                "cacheServer": "https://aws21-g43-udp01.asialab.glip.net:23307", 
+                "uploadServer": "https://api.aws21-g43-udp01.asialab.glip.net:23304/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 4, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "XMN-NewUI-Lab"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-devfre.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://xia01.asialab.glip.net", 
+                "cacheServer": "https://cache.xia01.asialab.glip.net", 
+                "uploadServer": "https://xia01.asialab.glip.net/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 6, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "DEV_FRE_XIA"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://platform.ringcentral.com", 
+                "clientSecret": "", 
+                "redirectUri": "https://glip.com/api/no-auth/rc-signon/mobile", 
+                "clientId": "PSWnc01iRgiU4z-TWDW3qg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://ops.glip.net", 
+                "cacheServer": "https://cache.ops.glip.net", 
+                "uploadServer": "https://ops.glip.net/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 7, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "OPS_GLIP"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://platform.devtest.ringcentral.com", 
+                "clientSecret": "2n9yrbhfTnOzhcP7Ry43gQJzNQ-JoHSeKsPAtT0xWKxQ", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "Z21lHgrWSu2eSTb_3FemJA"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws21-g43-udp01.asialab.glip.net:32004", 
+                "cacheServer": "https://aws21-g43-udp01.asialab.glip.net:32007", 
+                "uploadServer": "https://aws21-g43-udp01.asialab.glip.net:32006/upload", 
+                "downloadServer": "https://aws21-g43-udp01.asialab.glip.net:32006"
+            }, 
+            "id": 8, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Steve_Lab"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:23204", 
+                "cacheServer": "https://aws13-g04-uds01.asialab.glip.net:23207", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:23204/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 9, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Jacob_Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://platform.devtest.ringcentral.com", 
+                "clientSecret": "2n9yrbhfTnOzhcP7Ry43gQJzNQ-JoHSeKsPAtT0xWKxQ", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "Z21lHgrWSu2eSTb_3FemJA"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:23304", 
+                "cacheServer": "https://aws13-g04-uds01.asialab.glip.net:23307", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:23304/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 10, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Glip12146_Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://glip.ringcentral.cn", 
+                "cacheServer": "https://glip.ringcentral.cn:31337", 
+                "uploadServer": "https://glip.ringcentral.cn:8443/upload", 
+                "downloadServer": "https://glip.ringcentral.com:8443"
+            }, 
+            "id": 11, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Ringcentral-Lab"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://platform.devtest.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws02-g23-uds01.dev.glip.net:10004", 
+                "cacheServer": "https://aws02-g23-uds01.dev.glip.net:10004", 
+                "uploadServer": "https://aws02-g23-uds01.dev.glip.net:10004/upload", 
+                "downloadServer": "https://aws02-g23-uds01.dev.glip.net:10006"
+            }, 
+            "id": 12, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Colin-Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:33604", 
+                "cacheServer": "https://aws13-g04-uds01.asialab.glip.net:33607", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:33606/upload", 
+                "downloadServer": "https://aws13-g04-uds01.asialab.glip.net:33606"
+            }, 
+            "id": 13, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Tina-Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://xia01.asialab.glip.net", 
+                "cacheServer": "https://xia01.asialab.glip.net:31337", 
+                "uploadServer": "https://xia01.asialab.glip.net:8443/upload", 
+                "downloadServer": "https://glip.ringcentral.com:8443"
+            }, 
+            "id": 14, 
+            "collectionServer": "https://logcollection.xia01.asialab.glip.net", 
+            "name": "XMN-Stable-Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://api-rndvi3ams.lab.nordigy.ru", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:34804", 
+                "cacheServer": "https://cache.aws13-g04-uds01.asialab.glip.net:34807", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:34806/upload", 
+                "downloadServer": "https://aws13-g04-uds01.asialab.glip.net:34806"
+            }, 
+            "id": 15, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Lip-Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://api-devmobxia.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:33704", 
+                "cacheServer": "https://aws13-g04-uds01.asialab.glip.net:33707", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:33706/upload", 
+                "downloadServer": "https://aws13-g04-uds01.asialab.glip.net:33706"
+            }, 
+            "id": 16, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Adela-Devmobxia_Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://api-devfre.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws21-g43-udp01.asialab.glip.net:33504", 
+                "cacheServer": "https://aws21-g43-udp01.asialab.glip.net:33504", 
+                "uploadServer": "https://aws21-g43-udp01.asialab.glip.net:33504/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 17, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Seven_DEV_FRE_XIA"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-glpintams.lab.nordigy.ru", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws02-g23-uds01.dev.glip.net:18404", 
+                "cacheServer": "https://aws02-g23-uds01.dev.glip.net:18407", 
+                "uploadServer": "https://aws02-g23-uds01.dev.glip.net:18406/upload", 
+                "downloadServer": "https://aws02-g23-uds01.dev.glip.net:18406"
+            }, 
+            "id": 18, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Jeremy_RCV_Sandbox_INT-AMS"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://platform.devtest.ringcentral.com", 
+                "clientSecret": "2n9yrbhfTnOzhcP7Ry43gQJzNQ-JoHSeKsPAtT0xWKxQ", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "Z21lHgrWSu2eSTb_3FemJA"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws02-g23-uds03.dev.glip.net:35404", 
+                "cacheServer": "https://aws02-g23-uds03.dev.glip.net:35407", 
+                "uploadServer": "https://aws02-g23-uds03.dev.glip.net:35406/upload", 
+                "downloadServer": "https://aws02-g23-uds03.dev.glip.net:35406"
+            }, 
+            "id": 19, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Jackie_Lab"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-devfre.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws02-g23-uds03.dev.glip.net:35204", 
+                "cacheServer": "https://aws02-g23-uds03.dev.glip.net:35207", 
+                "uploadServer": "https://aws02-g23-uds03.dev.glip.net:35204/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 20, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Petros_Sandbox"
+        }, 
+        {
+            "name": "stage.glip.net_new", 
+            "rc_env": {
+                "apiServer": "https://platform.ops.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "glip_env": {
+                "apiServer": "https://app.stage.glip.net", 
+                "cacheServer": "https://cache.stage.glip.net", 
+                "uploadServer": "https://api.stage.glip.net/upload", 
+                "downloadServer": "https://api.stage.glip.net"
+            }, 
+            "id": 40
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://platform.devtest.ringcentral.com", 
+                "clientSecret": "bkUvnRtBQeCLi2n3EEwczQqv-HRcJmRbG4ec4pHI9wiQ", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "FVKGRbLRTxGxPempqg5f9g"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:33804", 
+                "cacheServer": "https://aws13-g04-uds01.asialab.glip.net:33807", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:33804/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 21, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Kerry-devtest"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-odsglpams.lab.nordigy.ru:32704", 
+                "clientSecret": "h7N7NZ_mQtq1pOheWQwlfwv8a21ptGSRePfKEWCMXlmQ", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "YkhHXhg7Sj-FJy12UU5NEQ"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws02-g23-uds06.dev.glip.net:32704", 
+                "cacheServer": "https://aws02-g23-uds06.dev.glip.net:32704", 
+                "uploadServer": "https://aws02-g23-uds06.dev.glip.net:32704/upload", 
+                "downloadServer": ""
+            }, 
+            "id": 22, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "ODS-LAB"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "http://api-up.lab.rcch.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds01.asialab.glip.net:33704", 
+                "cacheServer": "https://aws13-g04-uds01.asialab.glip.net:33707", 
+                "uploadServer": "https://aws13-g04-uds01.asialab.glip.net:33706/upload", 
+                "downloadServer": "https://aws13-g04-uds01.asialab.glip.net:33706"
+            }, 
+            "id": 23, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Adela-Xia_Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://platform.devtest.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws02-g23-uds08.dev.glip.net:25004", 
+                "cacheServer": "https://aws02-g23-uds08.dev.glip.net:25007", 
+                "uploadServer": "https://aws02-g23-uds08.dev.glip.net:25006/upload", 
+                "downloadServer": "https://aws02-g23-uds08.dev.glip.net:25006"
+            }, 
+            "id": 24, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "25004_Sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://platform.devtest.ringcentral.com", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds02.asialab.glip.net:37004", 
+                "cacheServer": "https://aws13-g04-uds02.asialab.glip.net:37007", 
+                "uploadServer": "https://aws13-g04-uds02.asialab.glip.net:37006/upload", 
+                "downloadServer": "https://aws13-g04-uds02.asialab.glip.net:37004"
+            }, 
+            "id": 25, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "kingle_sandbox"
+        }, 
+        {
+            "rc_env": {
+                "apiServer": "https://api-rndvi3ams.lab.nordigy.ru", 
+                "clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw", 
+                "redirectUri": "glip://rclogin", 
+                "clientId": "MkCdlSVqQ06H6i7KYcv9bg"
+            }, 
+            "glip_env": {
+                "apiServer": "https://aws13-g04-uds02.asialab.glip.net:36904", 
+                "cacheServer": "https://aws13-g04-uds02.asialab.glip.net:36907", 
+                "uploadServer": "https://aws13-g04-uds02.asialab.glip.net:36906/upload", 
+                "downloadServer": "https://aws13-g04-uds02.asialab.glip.net:36906"
+            }, 
+            "id": 26, 
+            "collectionServer": "https://logcollection.glip.net", 
+            "name": "Dennis_Sandbox"
+        }
+    ]
+}

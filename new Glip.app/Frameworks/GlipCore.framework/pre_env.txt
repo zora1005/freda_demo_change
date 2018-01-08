@@ -1,0 +1,155 @@
+{
+"data": [
+{
+"id": 8,
+"name": "Steve_Lab",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "https://platform.devtest.ringcentral.com",
+"clientId": "Z21lHgrWSu2eSTb_3FemJA",
+"clientSecret": "2n9yrbhfTnOzhcP7Ry43gQJzNQ-JoHSeKsPAtT0xWKxQ",
+"redirectUri": "glip://rclogin"
+},
+"glip_env": {
+"apiServer": "https://aws21-g43-udp01.asialab.glip.net:32004",
+"cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:32004",
+"uploadServer": "https://aws21-g43-udp01.asialab.glip.net:32004/upload",
+"downloadServer": "https://aws21-g43-udp01.asialab.glip.net:32006"
+}
+},
+{
+"id": 1,
+"name": "Glip",
+"collectionServer": "https://logcollection.glip.com",
+"rc_env": {
+"apiServer": "https://api.ringcentral.com",
+"clientId": "PSWnc01iRgiU4z-TWDW3qg",
+"clientSecret": "ZvBwer5lQP-zslLYW_UpfAPSS1o5R9SyWQL6Bv2bzg6Q",
+"redirectUri": "https://glip.com/api/no-auth/rc-signon/mobile"
+},
+"glip_env": {
+"apiServer": "https://app.glip.com",
+"cacheServer": "https://cache.glip.com",
+"uploadServer": "https://api.glip.com/upload",
+"downloadServer": ""
+}
+}, {
+"id": 2,
+"name": "GlipDemo",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "https://platform.devtest.ringcentral.com",
+"clientId": "Z21lHgrWSu2eSTb_3FemJA",
+"clientSecret": "2n9yrbhfTnOzhcP7Ry43gQJzNQ-JoHSeKsPAtT0xWKxQ",
+"redirectUri": "glip://rclogin"
+},
+"glip_env": {
+"apiServer": "https://app.glipdemo.com",
+"cacheServer": "https://cache.glipdemo.com",
+"uploadServer": "https://api.glipdemo.com/upload",
+"downloadServer": ""
+}
+}, {
+"id": 3,
+"name": "XMN-Lab",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "http://api-up.lab.rcch.ringcentral.com",
+"clientId": "MkCdlSVqQ06H6i7KYcv9bg",
+"clientSecret": "5_tFBXBQTLWaVcPF61LUGgngBfc8KGQCaZ0_UTw80vsw",
+"redirectUri": "glip://rclogin"
+},
+"glip_env": {
+"apiServer": "https://aws21-g43-udp01.asialab.glip.net:23304",
+"cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23304",
+"uploadServer": "https://aws21-g43-udp01.asialab.glip.net:23304/upload",
+"downloadServer": "https://aws21-g43-udp01.asialab.glip.net:23306"
+}
+}, {
+"id": 4,
+"name": "XMN-NewUI-Lab",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "http://api-up.lab.rcch.ringcentral.com",
+"clientId": "9ILFt1PlRni5_4flx9ujGA",
+"clientSecret": "",
+"redirectUri": "https://aws21-g43-udp01.asialab.glip.net:23304/api/no-auth/rc-signon/mobile"
+},
+"glip_env": {
+"apiServer": "https://api.aws21-g43-udp01.asialab.glip.net:23304",
+"cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23304",
+"uploadServer": "https://api.aws21-g43-udp01.asialab.glip.net:23304/upload",
+"downloadServer": ""
+}
+}, {
+"id": 6,
+"name": "DEV_FRE_XIA",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "http://api-devfre.lab.rcch.ringcentral.com",
+"clientId": "9ILFt1PlRni5_4flx9ujGA",
+"clientSecret": "",
+"redirectUri": "https://aws21-g43-udp01.asialab.glip.net:23304/api/no-auth/rc-signon/mobile"
+},
+"glip_env": {
+"apiServer": "https://aws21-g43-udp01.asialab.glip.net:23304",
+"cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23304",
+"uploadServer": "https://aws21-g43-udp01.asialab.glip.net:23304/upload",
+"downloadServer": ""
+}
+}, {
+"id": 7,
+"name": "OPS_GLIP",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "http://platform.ringcentral.com",
+"clientId": "PSWnc01iRgiU4z-TWDW3qg",
+"clientSecret": "",
+"redirectUri": "https://glip.com/api/no-auth/rc-signon/mobile"
+},
+"glip_env": {
+"apiServer": "https://ops.glip.net",
+"cacheServer": "https://cache.ops.glip.net",
+"uploadServer": "https://ops.glip.net/upload",
+"downloadServer": ""
+}
+}
+,
+{
+"id": 9,
+"name": "Jacob_Sandbox",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "https://platform.devtest.ringcentral.com",
+"clientId": "Z21lHgrWSu2eSTb_3FemJA",
+"clientSecret": "2n9yrbhfTnOzhcP7Ry43gQJzNQ-JoHSeKsPAtT0xWKxQ",
+"redirectUri": "glip://rclogin"
+},
+"glip_env": {
+"apiServer": "https://aws21-g43-udp01.asialab.glip.net:23204",
+"cacheServer": "https://cache.aws21-g43-udp01.asialab.glip.net:23204",
+"uploadServer": "https://aws21-g43-udp01.asialab.glip.net:23204/upload",
+"downloadServer": ""
+}
+}
+,
+{
+"id": 10,
+"name": "Glip12146_Sandbox",
+"collectionServer": "https://logcollection.glip.net",
+"rc_env": {
+"apiServer": "https://platform.devtest.ringcentral.com",
+"clientId": "Z21lHgrWSu2eSTb_3FemJA",
+"clientSecret": "2n9yrbhfTnOzhcP7Ry43gQJzNQ-JoHSeKsPAtT0xWKxQ",
+"redirectUri": "glip://rclogin"
+},
+"glip_env": {
+"apiServer": "https://aws13-g04-uds01.asialab.glip.net:23304",
+"cacheServer": "https://cache.aws13-g04-uds01.asialab.glip.net:23304",
+"uploadServer": "https://aws13-g04-uds01.asialab.glip.net:23304/upload",
+"downloadServer": ""
+}
+}
+
+]
+}

@@ -16,7 +16,7 @@ public class EnvironmentScreen extends startDriver {
     @FindBy(id = "barItemBackBtn")
     protected WebElement barItemBackBtn = driver.findElement(By.id("barItemBackBtn"));
 
-    public void switchEnv(String Env) {
+    public void switchEnv3(String Env) {
         if("XMN-Lab".equals(Env)){ XMN_Lab.click(); }
         else if ("GlipDemo".equals(Env)){ GlipDemo.click(); }
         else if ("Glip".equals(Env)){ Glip.click(); }

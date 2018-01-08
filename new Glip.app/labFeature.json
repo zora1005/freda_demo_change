@@ -1,0 +1,9 @@
+{
+    "featureList" : [
+                     {"name": "AICanlendarSuggestion",
+                      "minimumVersion" : 11,
+                     "betaFlag" : 8,
+                     "defaultValue": true
+                     }
+                     ]
+}
