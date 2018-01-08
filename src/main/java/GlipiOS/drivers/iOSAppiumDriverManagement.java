@@ -28,8 +28,8 @@ public class iOSAppiumDriverManagement{
         cap.setCapability("platformName", "iOS"); //待测试手机的操作系统
         cap.setCapability("platformVersion", "10.2.1"); //待测试手机的操作系统
         cap.setCapability("deviceName", "iPhone 6"); //使用的手机类型或模拟器类型，真机时输入Android Emulator或者手机型号
-        cap.setCapability("udid", "46785E7F-F7AE-4E79-8719-2E12CAE127CA");//Vina mac
-        //cap.setCapability("udid","83880DE8-EFC4-41DE-AE6C-C7B697CF146C");//MY MAC 连接的物理设备的唯一设备标识,Android可以不设置
+        //cap.setCapability("udid", "46785E7F-F7AE-4E79-8719-2E12CAE127CA");//Vina mac
+        cap.setCapability("udid","83880DE8-EFC4-41DE-AE6C-C7B697CF146C");//MY MAC 连接的物理设备的唯一设备标识,Android可以不设置
         cap.setCapability("app", "/Users/songjiali/Documents/intelliJ project/freda_demo_change/new Glip.app");//未安装应用时，设置app的路径
         cap.setCapability("autoAcceptAlerts", "True");
 
