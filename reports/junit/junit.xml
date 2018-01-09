@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="1.763955">
+<testcase classname="glipemailsignin" name="Sign In with email Account" time="1.763955">
+<failure message="cucumber.runtime.CucumberException: Error creating bean with name 'steps.GlipEmailSignin': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [steps.GlipEmailSignin]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError&#10;&#9;at cucumber.runtime.java.spring.SpringFactory.getInstance(SpringFactory.java:182)&#10;&#9;at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)&#10;&#9;at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)&#10;&#9;at cucumber.runtime.Runtime.runStep(Runtime.java:300)&#10;&#9;at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)&#10;&#9;at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)&#10;&#9;at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)&#10;&#9;at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#10;&#9;at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)&#10;&#9;at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)&#10;&#9;at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)&#10;&#9;at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)&#10;&#9;at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)&#10;&#9;at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)&#10;&#9;at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)&#10;&#9;at org.junit.runners.ParentRunner.run(ParentRunner.java:309)&#10;&#9;at cucumber.api.junit.Cucumber.run(Cucumber.java:100)&#10;&#9;at org.junit.runner.JUnitCore.run(JUnitCore.java:160)&#10;&#9;at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)&#10;&#9;at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)&#10;&#9;at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)&#10;&#9;at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)&#10;Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'steps.GlipEmailSignin': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [steps.GlipEmailSignin]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError&#10;&#9;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1105)&#10;&#9;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)&#10;&#9;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)&#10;&#9;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)&#10;&#9;at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)&#10;&#9;at cucumber.runtime.java.spring.GlueCodeScope.get(GlueCodeScope.java:15)&#10;&#9;at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)&#10;&#9;at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:220)&#10;&#9;at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:351)&#10;&#9;at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:332)&#10;&#9;at cucumber.runtime.java.spring.SpringFactory.getInstance(SpringFactory.java:180)&#10;&#9;... 30 more&#10;Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [steps.GlipEmailSignin]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError&#10;&#9;at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)&#10;&#9;at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)&#10;&#9;at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098)&#10;&#9;... 40 more&#10;Caused by: java.lang.ExceptionInInitializerError&#10;&#9;at steps.GlipEmailSignin.&lt;init&gt;(GlipEmailSignin.java:23)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#10;&#9;at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#10;&#9;at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)&#10;&#9;at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)&#10;&#9;... 42 more&#10;Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{app=/Users/songjiali/Documents/intelliJ project/freda_demo_change/new Glip.app, newCommandTimeout=30000, platformVersion=10.2.1, platformName=iOS, udid=46785E7F-F7AE-4E79-8719-2E12CAE127CA, deviceName=iPhone 6, autoAcceptAlerts=True}], required capabilities = Capabilities [{}]&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'xmna013.rcoffice.ringcentral.com', ip: '10.32.58.88', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'&#10;Driver info: driver.version: IOSDriver&#10;&#9;at io.appium.java_client.remote.AppiumProtocolHandShake.lambda$1(AppiumProtocolHandShake.java:96)&#10;&#9;at java.base/java.util.Optional.orElseThrow(Optional.java:385)&#10;&#9;at io.appium.java_client.remote.AppiumProtocolHandShake.createSession(AppiumProtocolHandShake.java:96)&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.doExecute(AppiumCommandExecutor.java:111)&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:162)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#10;&#9;at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:137)&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)&#10;&#9;at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:88)&#10;&#9;at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:112)&#10;&#9;at io.appium.java_client.ios.IOSDriver.&lt;init&gt;(IOSDriver.java:78)&#10;&#9;at GlipiOS.drivers.iOSAppiumDriverManagement.&lt;init&gt;(iOSAppiumDriverManagement.java:38)&#10;&#9;at GlipiOS.drivers.iOSAppiumDriverManagement.&lt;clinit&gt;(iOSAppiumDriverManagement.java:19)&#10;&#9;... 48 more&#10;"><![CDATA[Given User has valid email and Password.....................................failed
+When User inputs email "8882420001" and Password "Test!123".................skipped
+Then User can sign in app...................................................skipped
+
+StackTrace:
+cucumber.runtime.CucumberException: Error creating bean with name 'steps.GlipEmailSignin': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [steps.GlipEmailSignin]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at cucumber.runtime.java.spring.SpringFactory.getInstance(SpringFactory.java:182)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
+	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'steps.GlipEmailSignin': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [steps.GlipEmailSignin]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1050)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:510)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$2.getObject(AbstractBeanFactory.java:345)
+	at cucumber.runtime.java.spring.GlueCodeScope.get(GlueCodeScope.java:15)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:340)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:351)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBean(DefaultListableBeanFactory.java:332)
+	at cucumber.runtime.java.spring.SpringFactory.getInstance(SpringFactory.java:180)
+	... 30 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [steps.GlipEmailSignin]: Constructor threw exception; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:163)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:89)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1098)
+	... 40 more
+Caused by: java.lang.ExceptionInInitializerError
+	at steps.GlipEmailSignin.<init>(GlipEmailSignin.java:23)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:147)
+	... 42 more
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create new remote session. desired capabilities = Capabilities [{app=/Users/songjiali/Documents/intelliJ project/freda_demo_change/new Glip.app, newCommandTimeout=30000, platformVersion=10.2.1, platformName=iOS, udid=46785E7F-F7AE-4E79-8719-2E12CAE127CA, deviceName=iPhone 6, autoAcceptAlerts=True}], required capabilities = Capabilities [{}]
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'xmna013.rcoffice.ringcentral.com', ip: '10.32.58.88', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '9.0.1'
+Driver info: driver.version: IOSDriver
+	at io.appium.java_client.remote.AppiumProtocolHandShake.lambda$1(AppiumProtocolHandShake.java:96)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:385)
+	at io.appium.java_client.remote.AppiumProtocolHandShake.createSession(AppiumProtocolHandShake.java:96)
+	at io.appium.java_client.remote.AppiumCommandExecutor.doExecute(AppiumCommandExecutor.java:111)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:162)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:112)
+	at io.appium.java_client.ios.IOSDriver.<init>(IOSDriver.java:78)
+	at GlipiOS.drivers.iOSAppiumDriverManagement.<init>(iOSAppiumDriverManagement.java:38)
+	at GlipiOS.drivers.iOSAppiumDriverManagement.<clinit>(iOSAppiumDriverManagement.java:19)
+	... 48 more
+]]></failure>
+</testcase>
+</testsuite>

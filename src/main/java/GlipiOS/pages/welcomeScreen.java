@@ -2,7 +2,7 @@ package GlipiOS.pages;
 
 import GlipiOS.drivers.startDriver;
 
-import javafx.scene.web.WebView;
+//import javafx.scene.web.WebView;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
